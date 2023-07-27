@@ -359,38 +359,38 @@ int main()
 {
     cout << endl;
 
-    cout << "------------------        ---------\n";
-    cout << "         |                |       |\n";
-    cout << "         |                |\n";
-    cout << "         |                |\n";
-    cout << "         |                `--------\n";
-    cout << "|        |                        |\n";
-    cout << "|        |                        |\n";
-    cout << "|        |                |       |\n";
+    cout << "|           |     \                 /                    \n";
+    cout << "|           |      \               /               |       |\n";
+    cout << "|           |        \            /              |\n";
+    cout << "|           |         \          /                     |\n";
+    cout << "|           |          \     `  /              ------\n";
+    cout << "|           |           \     /        |\n";
+    cout << "|           |            \   /         |\n";
+    cout << "|           |             \ /        |\n";
     cout << "`--------`   ----------   `-------`\n\n";
 
     cout << "_______________________________________\n";
-    cout << ".......WELCOME TO JATIN's SHELL....... \nYou can use the Command J_help to start \n";
+    cout << ".......WELCOME TO Uv's SHELL....... \nYou can use the Command J_help to start \n";
     cout << "---------------------------------------\n";
-    commands["J_pwd"] = pwd_action;
-    commands["J_ls"] = ls_action;
-    commands["J_cd"] = cd_action;
-    commands["J_lstype"] = ls_type_action;
-    commands["J_memory"] = memory_action;
-    commands["J_mkdir"] = mkdir_action;
-    commands["J_rmdir"] = rmdir_action;
-    commands["J_rename"] = rename_action;
-    commands["J_mkfile"] = makefile_action;
-    commands["J_rmfile"] = removefile_action;
-    commands["J_copy"] = copy_action;
-    commands["J_exist"] = exists_action;
-    commands["J_echo"] = echo_action;
-    commands["J_read"] = read_action;
-    commands["J_sort"] = sort_action;
-    commands["J_time"] = time_action;
-    commands["J_history"] = history_action;
-    commands["J_clear"] = clear_action;
-    commands["J_help"] = help_action;
+    commands["U_pwd"] = pwd_action;
+    commands["U_ls"] = ls_action;
+    commands["U_cd"] = cd_action;
+    commands["U_lstype"] = ls_type_action;
+    commands["U_memory"] = memory_action;
+    commands["U_mkdir"] = mkdir_action;
+    commands["U_rmdir"] = rmdir_action;
+    commands["U_rename"] = rename_action;
+    commands["U_mkfile"] = makefile_action;
+    commands["U_rmfile"] = removefile_action;
+    commands["U_copy"] = copy_action;
+    commands["U_exist"] = exists_action;
+    commands["U_echo"] = echo_action;
+    commands["U_read"] = read_action;
+    commands["U_sort"] = sort_action;
+    commands["U_time"] = time_action;
+    commands["U_history"] = history_action;
+    commands["U_clear"] = clear_action;
+    commands["U_help"] = help_action;
     while (true)
     {
         string cmd;
